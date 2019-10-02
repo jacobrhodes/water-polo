@@ -1,0 +1,140 @@
+body {margin: 0;}
+#polo{text-align:center;}
+.water{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;}
+.water1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;}
+.newton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;}
+body {background-color: brown;}
+.water2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;}
+.cap{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;}
+.goggles{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;}
+.speedo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;}
+#page1{text-align:center;}
+
+
+#things {
+  width: 140px;
+  padding: 20px;
+  border: 5px solid gray;
+  margin: 0;
+}
+#things {
+  font-size: 2px;
+}
+
+#things {
+  font-size: small;
+}
+
+#things {
+  font-size: 50%;
+}
+#playing {
+  width: 1555px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+
+
+#needs {
+  width: 1555px;
+  padding: 20px;
+  border: 5px solid gray;
+  margin: 0;
+}
+#needs {
+  font-size: 100px;
+}
+
+#needs {
+  font-size: big;
+}
+
+#needs {
+  font-size: 200%;
+}
+/* Navigation Bar */
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: gray;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+ul.sidenav li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+  background-color:#4CAF50;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color:white;
+  color: white;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 9000px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+/* Navigation Bar End */
